@@ -7,5 +7,5 @@ public abstract class Geometry {
 
     public abstract double calculateArea();
     public abstract double calculatePerimeter();
-    public abstract void display();
+
 }

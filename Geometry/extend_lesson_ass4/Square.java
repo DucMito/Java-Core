@@ -1,6 +1,6 @@
 package extend_lesson_ass4;
 
-public class Square extends Geometry{
+public class Square extends Geometry {
     private double side;
 
     public Square(double side) {
@@ -25,12 +25,5 @@ public class Square extends Geometry{
 
     public double calculatePerimeter() {
         return 4 * side;
-    }
-
-    public void display() {
-        System.out.println("Hình vuông:");
-        System.out.println("Cạnh: " + side);
-        System.out.println("Diện tích: " + calculateArea());
-        System.out.println("Chu vi: " + calculatePerimeter());
     }
 }
