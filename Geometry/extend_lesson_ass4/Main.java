@@ -10,7 +10,10 @@ public class Main {
             length = Double.parseDouble(scanner.nextLine());
             System.out.println("Rong: ");
             width = Double.parseDouble(scanner.nextLine());
-            if (length <= 0 || width <= 0) {
+            if(length < width){
+                System.out.println("Khong hop le, dai phai lon hon rong");
+            }
+            else if (length <= 0 || width <= 0) {
                 System.out.println("Nhap lon hon 0.");
             }
         } while (length <= 0 || width <= 0);
