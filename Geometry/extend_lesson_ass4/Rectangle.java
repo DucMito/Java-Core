@@ -36,5 +36,11 @@ public class Rectangle extends  Geometry{
         return 2 * (length + width);
     }
 
+    public void display(){
+        System.out.println("Hinh chu nhat: ");
+        System.out.println("Dien tich : " + calculateArea());
+        System.out.println("Chu vi: " + calculatePerimeter());
+    }
+
 
 }

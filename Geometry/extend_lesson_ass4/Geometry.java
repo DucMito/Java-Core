@@ -2,7 +2,7 @@ package extend_lesson_ass4;
 
 public abstract class Geometry {
 
-//    abstract khai bao phương thức không có nội dung, chỉ khai báo phương thức(gọi phương thức)
+    // abstract khai bao phương thức không có nội dung, chỉ khai báo phương thức(gọi phương thức)
     // Cung cap chung ma cac class con deu co phuong thuc nay
 
     public abstract double calculateArea();
