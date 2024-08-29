@@ -49,7 +49,6 @@ public class Main {
 
         for (TechmasterStudent student : students) {
             student.printInfo();
-            System.out.println();
         }
 
         System.exit(0);

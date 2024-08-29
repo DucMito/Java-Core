@@ -1,11 +1,12 @@
 package techmaster_v2.service;
 
 import techmaster_v2.entities.BizStudent;
+import techmaster_v2.entities.TechmasterStudent;
 
 import java.util.Scanner;
 
 public class BizStudentService {
-    public BizStudent inputBizStudent(Scanner scanner){
+    public TechmasterStudent inputBizStudent(Scanner scanner){
         System.out.println("Mời b nhập tên: ");
         String name = scanner.nextLine();
         System.out.println("Mời b nhập chuyên ngành: ");

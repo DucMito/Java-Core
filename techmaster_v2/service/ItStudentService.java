@@ -1,11 +1,12 @@
 package techmaster_v2.service;
 
 import techmaster_v2.entities.ItStudent;
+import techmaster_v2.entities.TechmasterStudent;
 
 import java.util.Scanner;
 
 public class ItStudentService {
-    public ItStudent inputItStudentService(Scanner scanner){
+    public TechmasterStudent inputItStudentService(Scanner scanner){
         System.out.println("Moi ban nhap ten: ");
         String inputName = scanner.nextLine();
         System.out.println("Nhap chuyen nganh: ");
