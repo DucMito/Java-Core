@@ -1,5 +1,5 @@
 // Main.java
-import service.UserService;
+import services.UserService;
 
 import java.util.Scanner;
 
